@@ -106,5 +106,7 @@ The following could be observed about the outcome after modifying the data:
 1. Since Thomas High School is a Charter Type of School, the District Summary outcome was effected. However, the effect was nominal. 
 2. Since Thomas High School is a Mid Size School (1000-2000), the Size Summary outcome for Mid Size School was effected. However, the effect was nominal. 
 3. Since Thomas High School fell under the $630-$644 Spending Range, this outcome was also effected. However, the effect was nominal. 
-4. The Rank of the school was unaffected even after NaNs were applied to Grade 9 Reading and Math Scores
+# Further Analysis #
+1. There is one outlier in the urban ride count data. Also, the average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and    suburban cities
+5. The Rank of the school was unaffected even after NaNs were applied to Grade 9 Reading and Math Scores
 <br>
