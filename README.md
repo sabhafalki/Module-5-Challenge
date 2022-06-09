@@ -16,7 +16,7 @@ The analysisis based on the following points among the different city types:
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
 Software: Python, Anaconda, Jupyter Notebook <br>
-Library Modules: Pandas, Numpy
+Library Modules: Pandas, Numpy, Scipy.stats 
 
 # Results #
 We were able to conclude the following from our analysis:
