@@ -96,17 +96,30 @@ After cleaning up the data, Thomas High School is second highest school after ra
     - Passing Reading Percentage dropped by 0.03%
     - Overall Percentage dropped by 0.1
     The changes to the outcoem were nominal. 
+
   
   ![SchoolTypeOriginal](/Screenshots/SchoolTypeOriginal.png)
   ![SchoolTypeUpdated](/Screenshots/SchoolTypeUpdated.png)
   <br><br>
 
 # Summary of Outcome #
-The following could be observed about the outcome after modifying the data:
-1. Since Thomas High School is a Charter Type of School, the District Summary outcome was effected. However, the effect was nominal. 
-2. Since Thomas High School is a Mid Size School (1000-2000), the Size Summary outcome for Mid Size School was effected. However, the effect was nominal. 
-3. Since Thomas High School fell under the $630-$644 Spending Range, this outcome was also effected. However, the effect was nominal. 
+The following could be observed of PyBer ride-sharinge data:
+1. PyBer ride-sharing services would not be the first option for travels as the fares are pretty high. 
+2. Drivers in rural cities are earning more than drivers in urban cities. This could discourage potential drivers from working with PyBer given the low average fare
+   per driver.
+3. The general tendencies is high number of drivers and rides goes with medium to low fare.
+4. Suburban drivers were only about 17% of the total drivers but accounted for more than 30% of the total fares and just above a quarter of the rides.
 # Further Analysis #
-1. There is one outlier in the urban ride count data. Also, the average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and    suburban cities
-5. The Rank of the school was unaffected even after NaNs were applied to Grade 9 Reading and Math Scores
+1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities.
+
+     ![Outlier](/analysis1/PyBer_fare_outliers.png)
+<br><br>
+2. Geographic maps must be include in the the app for better use. 
+3. On the scatter plot, we notice some urban cities with low average fare but pretty high count of rides. Analyzing the average number of drivers against the 
+   population and infrastructure and economic activity in those cities would help understand those disparities.
+   
+     ![scatterplot](/analysis1/PyBer_ride_sharing Data(2019).png)
+  <br><br>
+4. Determine other factors that are contributing high ride costs in rural cities and low driver fares in urban cities. Factors such as travel distances, cellphone        coverage would be needed to get a clearer picture.      
+
 <br>
