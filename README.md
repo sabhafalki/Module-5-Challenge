@@ -1,21 +1,22 @@
 # Module-5-Challenge_PyBer_Challenge
 # Overview of Project #
-The purpose of this Project is to analyze the School district's report to determine the academic dishonesty of grades for 9th Grade Students of Thomas High School, for Maths and Reading Scores. We are going to determine this by replacing the Maths and Reading Score for the above with averages from Grade 10-12. We will then compare this with the initial unmodified results. 
+The purpose of this Project is to analyze and visualize PyBer 2019 ride-sharing data, to help the company improve access to ride-sharing services and determine affordability for underserved areas.
 
-The analysis required the following data to be presented:
-1. To replace the math scores and reading scores with NaN of Ninth grade for Thomas High School.
-2. Recreate the following metrics:
-    - The district summary.
-    - The school summary.
-    - The top 5 and bottom 5 performing schools, based on the overall passing rate.
-    - The average math score for each grade level from each school.
-    - The average reading score for each grade level from each school.
-    - The average reading score for each grade level from each school.
-
+The analysisis based on the following points among the different city types:
+1. Create a ride-sharing summary DataFrame by city type.
+    - Calculate total rides, total drivers and total amount of fares for each city type.
+    - Calculate the the average fare per ride and the average fare per driver for each city type to create pyber summary DataFrame.    
+2. Create a multiple-line chart of total fares for each city type to show the total weekly of the fares .
+    - Remove MultiIndex by useing reset_index to remove one or more levels.
+    - Reshaped a given DataFrame By using pivot() fuction. 
+    - Use to_datetime() method to convert string Date time into Python Date time object.
+    - Convert the time series data points index into time order by using dataframe.resample() function. 
+    - Plot the chart.
+    
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
 Software: Python, Anaconda, Jupyter Notebook <br>
-Library Modules: Pandas, Numpy, Scipy.stats.
+Library Modules: Pandas, Numpy
 
 # Results #
 We were able to conclude the following from our analysis:
