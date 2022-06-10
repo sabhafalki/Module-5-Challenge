@@ -71,7 +71,7 @@ The following could be observed from analyzing the PyBer ride-sharinge data:
 3. Janurary seemed to have the lowest revenue, while March had the highest revenue generated for the regions. Hence, it might be better to introduce promotions in Janurary to promote revenue.
 
 ### Further Analysis ###
-1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities. This may indicate that the data could have errors. 
+1. There is one outlier in the rural fare data. This may indicate that there could be an error in the data.
 ![Outlier](/analysis1/PyBer_fare_outliers.png)
 <br><br>
 
