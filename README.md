@@ -1,76 +1,84 @@
 # Module-5-Challenge_PyBer_Challenge
 # Overview of Project #
-The purpose of this Project is to analyze and visualize PyBer 2019 ride-sharing data, to help the company improve access to ride-sharing services and determine affordability for underserved areas.
+The purpose of this Project is to analyze and visualize PyBer 2019 ride-sharing data, to help the company improve access to ride-sharing services and determine affordability for underserved areas. The data sample consisted of only 5 months, for three regions: urban, rural and subburbon. 
 
-The analysisis based on the following points among the different city types:
-1. Create a ride-sharing summary DataFrame by city type.
-    - Calculate total rides, total drivers and total amount of fares for each city type.
-    - Calculate the the average fare per ride and the average fare per driver for each city type to create pyber summary DataFrame.    
-2. Create a multiple-line chart of total fares for each city type to show the total weekly of the fares .
-    - Remove MultiIndex by useing reset_index to remove one or more levels.
-    - Reshaped a given DataFrame By using pivot() fuction. 
-    - Use to_datetime() method to convert string Date time into Python Date time object.
-    - Convert the time series data points index into time order by using dataframe.resample() function. 
-    - Plot the chart.
-    
+The analysisis consisted of the following:
+1. A Summarized DataFram of the ride-sharing data by city type
+2. A Multiple-Line Graph that shows the total weekly fares for each city type
+
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
 Software: Python, Anaconda, Jupyter Notebook <br>
 Library Modules: Pandas, Numpy, Scipy.stats 
 
 # Results #
-We were able to conclude the following from our analysis: <br>
 The PyBer Summary DataFrame provides an overview comparison of PyBer's ride-sharing services in three types of cities: rural, surburban, and urban cities.
-### The percentage of total rides by city type ###
 
-  ![Total_rides](/analysis1/total_rides.png)
- <br><br>
-The summary demonstrates that there is a larger demand for PyBer rides serives among the urban cities compared to suburban and rural cities. The above figure represents Urban cities contributed the most to PyBer's overall rides during this five-month period.
-### The percentage of total rides by city type ###
+## Detailed Overview ##
+### The Percentage of Total Rides by City Type ###
+![Total_rides](/analysis1/total_rides.png)
+<br><br>
 
- ![Total_Drivers](/analysis1/Total_drivers.png)
- <br><br>
-There are a larger volume of drivers in urban cities compared to suburban and rural cities.The figure above signify the large number of drivers in urban cities during 
-this period of time.
+We were able to conclude from the Pie Chart that there was a larger demand for PyBer ride serives among the urban cities, compared to suburban and rural cities. The above figure indicated that the Urban cities contributed to the most PyBer's rides overall over the five-month period.
+
+### The Percentage of Total Drivers by City Type ###
+![Total_Drivers](/analysis1/Total_drivers.png)
+<br><br>
+
+We were able to deduce that there were a larger number of drivers in urban cities compared to suburban and rural cities, for the given period of time. This is directly related to the total rides in the city.
  
-### The percentage of total fares by city type ###
+### The Percentage of Total Fares by City Type ###
+![Total_Fares](/analysis1/total_amount_of_fares.png)
+<br><br>
 
-  ![Total_Fares](/analysis1/total_amount_of_fares.png)
- <br><br>
-The rides count in Urban cities is more that compare to the suburban and rural cities, but the fares price is higher in Rural area.The figure above demonstrates where the majority of PyBer's revenue occurred during this period of time that is urban cities.
+Although the price fares are higher in Rural Regions, the ride count was substantially high in Urban Cities, and thus it generated the highest income, compared to suburban and rural ciites. Again, this coorelates to our previous findings, where we found out that the Urban Cities have the highest Total Drivers and hightest Total Rides.
 
+## In-Dept Analysis ##
 ### PyBer Summary DataFrame ###
-
 ![summary](/analysis1/pyber_summary.png)
-  <br><br>
-The average fare for rides in the rural cities is about $10 more per ride than the urban and suburban cities.The average number of drivers in rural cities is nine to four times less per city than in urban and suburban cities.
-### The average fare per ride and driver by city type ###
+<br><br>
+
+The average fare for rides in the rural cities is about $10 more per ride, than in urban and suburban cities. The average number of drivers in rural cities is nine to four times less per city, than in urban and suburban cities.
+
+### Relationship Between the Average Fares, Total Rides and Drivers by City ###
 The following bubble chart shows the relationship between the average fare price and the number of rides and drivers categorized by the different city types.
 
 ![scatterplot](/analysis1/PyBer_ride_sharing_Data(2019).png)
-  <br><br>
-     
-### The total fare by city type ###
+<br><br>
+
+It is evident from the scatter plot, the as the total number of rides increases, the average fare per ride decreases. 
+
+### The Total Fare by City Type ###
 The following line chart shows the total fare by city type from January to April 2019.
 
 ![summary](/analysis1/PyBer_fare_summary.png)
-  <br><br>
-The urban weekly total fare is around 9 and 2.25 times higher than rural and surburban ones respectively. 
-# Summary of Outcome #
-The following could be observed of PyBer ride-sharinge data:
-1. PyBer ride-sharing services would not be the first option for travels as the fares are pretty high. 
-2. Drivers in rural cities are earning more than drivers in urban cities. This could discourage potential drivers from working with PyBer given the low average fare
-   per driver.
-3. The general tendencies is high number of drivers and rides goes with medium to low fare.
-4. Suburban drivers were only about 17% of the total drivers but accounted for more than 30% of the total fares and just above a quarter of the rides.
-# Further Analysis #
-1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities.
-
-     ![Outlier](/analysis1/PyBer_fare_outliers.png)
 <br><br>
-2. Geographic maps must be include in the the app for better use. 
-3. On the scatter plot, we notice some urban cities with low average fare but pretty high count of rides. Analyzing the average number of drivers against the 
-   population and infrastructure and economic activity in those cities would help understand those disparities.   
-4. Determine other factors that are contributing high ride costs in rural cities and low driver fares in urban cities. Factors such as travel distances, cellphone        coverage would be needed to get a clearer picture.      
+The urban weekly total fare is around 9 and 2.25 times higher than rural and surburban ones respectively. 
 
+## Conclusion ##
+### Summary ###
+The following could be observed from analyzing the PyBer ride-sharinge data:
+1. Urban Region had the highest Total Ride count, followd by suburban and rural regions
+2. Urban Region had the highest Total Riders, followd by suburban and rural regions
+3. Urban Region had the highest Revenue, followed by suburban and rural regions
+4. Rural Region had the highest Fares, followed by Urban and suburban regions
+5. From the Dataframe, it is evident that the drivers in the rural cities are earning the highest, followed by Suburban and Urban
+6. Suburban Drivers were only about 17% of the total drivers but accounted for more than 30% of the total fares and just above a quarter of the rides.
+
+### Business Recomendations ###
+1. The highest revenue generated was from Urban Regions. It might be worthwhile to expand in Urban Regions where PyBer does not have a presence. 
+2. Since the lowest revene generated was form Rural Regions, PyBer should consider carefully to expand in such regions.
+3. Janurary seemed to have the lowest revenue, while March had the highest revenue generated for the regions. Hence, it might be better to introduce promotions in Janurary to promote revenue. 
+
+### Further Analysis ###
+1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities. This may indicate that the data could have errors. 
+![Outlier](/analysis1/PyBer_fare_outliers.png)
+<br><br>
+
+2. There could be a correlation to the total population in a particular region, and the total revenue generated there. We need to get more details around the   population, infrastructure and economic activity to better understand this correlation. 
+3. There could alo be certain locatinos within a region, which constitue a high number of riders and revenue. We should get additional data to determine this. 
+4. We also do not have information on the duration of the ride, which could be useful.
+5. It appears that the higher costs is directly related to the lower number of Rides. However, if we gather additional information around traveling distance, cellphone coverage, availability of drivers, etc.
+6. We should also try to calculate the average total revenue earned by a driver
+7. We should also try to establish the correlation between supply and demand
 <br>
