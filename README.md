@@ -1,6 +1,6 @@
 # Module-5-Challenge_PyBer_Challenge
 # Overview of Project #
-The purpose of this Project is to analyze and visualize PyBer 2019 ride-sharing data, to help the company improve access to ride-sharing services and determine affordability for underserved areas. The data sample consisted of only 5 months, for three regions: urban, rural and subburbon. 
+The purpose of this Project is to analyze and visualize PyBer 2019 ride-sharing data, to help the company improve access to ride-sharing services and determine affordability for underserved areas. The data sample consisted of data from January to April months, for three regions: urban, rural and subburbon. 
 
 The analysisis consisted of the following:
 1. A Summarized DataFram of the ride-sharing data by city type
@@ -67,8 +67,8 @@ The following could be observed from analyzing the PyBer ride-sharinge data:
 
 ### Business Recomendations ###
 1. The highest revenue generated was from Urban Regions. It might be worthwhile to expand in Urban Regions where PyBer does not have a presence. 
-2. Since the lowest revene generated was form Rural Regions, PyBer should consider carefully to expand in such regions.
-3. Janurary seemed to have the lowest revenue, while March had the highest revenue generated for the regions. Hence, it might be better to introduce promotions in Janurary to promote revenue. 
+2. Since the lowest revene generated was form Rural Regions, furhter analysis should be conducted to understand the reason. Whether this is because of low demand, or is it because of the lower number of drivers. This research can help PyBer in either increasing, decreasing or spreading out the drivers. 
+3. Janurary seemed to have the lowest revenue, while March had the highest revenue generated for the regions. Hence, it might be better to introduce promotions in Janurary to promote revenue.
 
 ### Further Analysis ###
 1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities. This may indicate that the data could have errors. 
