@@ -37,21 +37,25 @@ this period of time.
 
   ![Total_Fares](/analysis1/total_amount_of_fares.png)
  <br><br>
-
 The rides count in Urban cities is more that compare to the suburban and rural cities, but the fares price is higher in Rural area.The figure above demonstrates where the majority of PyBer's revenue occurred during this period of time that is urban cities.
 
+### PyBer Summary DataFrame ###
+
+![summary](/analysis1/pyber_summary.png)
+  <br><br>
+The average fare for rides in the rural cities is about $10 more per ride than the urban and suburban cities.The average number of drivers in rural cities is nine to four times less per city than in urban and suburban cities.
 ### The average fare per ride and driver by city type ###
-The following bubble chart shows the three different scatter plots, for each type of city based on the number of rides, the average fare and the average number of drivers:
+The following bubble chart shows the relationship between the average fare price and the number of rides and drivers categorized by the different city types.
 
 ![scatterplot](/analysis1/PyBer_ride_sharing_Data(2019).png)
   <br><br>
-The average number of rides in the rural cities is about 3.5 and 2.5 times lower than urban and suburban cities. 
+     
 ### The total fare by city type ###
 The following line chart shows the total fare by city type from January to April 2019.
 
 ![summary](/analysis1/PyBer_fare_summary.png)
   <br><br>
-The urban weekly total fare is around 9 and 2.25 times higher than rural and surburban cities. 
+The urban weekly total fare is around 9 and 2.25 times higher than rural and surburban ones respectively. 
 # Summary of Outcome #
 The following could be observed of PyBer ride-sharinge data:
 1. PyBer ride-sharing services would not be the first option for travels as the fares are pretty high. 
@@ -60,7 +64,7 @@ The following could be observed of PyBer ride-sharinge data:
 3. The general tendencies is high number of drivers and rides goes with medium to low fare.
 4. Suburban drivers were only about 17% of the total drivers but accounted for more than 30% of the total fares and just above a quarter of the rides.
 # Further Analysis #
-1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 2.5 and 4 times lower per city compare to the suburban cities      and the urban cities.
+1. There is one outlier in the rural fare data. The average weekly fare price of rural cities is about 3.4 and 4 times lower per city compare to the suburban cities      and the urban cities.
 
      ![Outlier](/analysis1/PyBer_fare_outliers.png)
 <br><br>
