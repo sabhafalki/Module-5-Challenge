@@ -7,7 +7,7 @@ The analysisis consisted of the following:
 2. A Multiple-Line Graph that shows the total weekly fares for each city type
 
 # Resources #
-Data Source: students_complete.csv, schools_complete.csv  <br>
+Data Source: city_data.csv, ride_data.csv  <br>
 Software: Python, Anaconda, Jupyter Notebook <br>
 Library Modules: Pandas, Numpy, Scipy.stats 
 
